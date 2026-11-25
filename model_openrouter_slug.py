@@ -3,6 +3,8 @@ The 5 models under test, as Groq model IDs.
 Kept as a list of (display_name, model_id) so output tables show friendly names.
 (File name kept as-is so existing imports keep working.)
 """
+# IT main aim to bring the model slugs into one place, so if we want to add/remove models, we can do it here and not in main.py
+
 MODELS = [
     ("GPT-OSS 120B",    "openai/gpt-oss-120b"),
     ("GPT-OSS 20B",     "openai/gpt-oss-20b"),

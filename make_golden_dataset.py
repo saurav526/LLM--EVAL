@@ -5,6 +5,8 @@ Separate from make_golden_csv.py so your 30-question golden_dataset.csv is untou
 Run:  python3 make_hard_csv.py
 Output: golden_hard.csv
 """
+# so the difference btw golden_dataset.csv and golden_hard.csv is that the latter has only the 20 HARD questions, and the former has all 30 questions (10 EASY + 10 MEDIUM + 10 HARD)
+
 import csv, json, sqlite3
 from golden_dataset_generator import GOLDEN          # <-- reads the HARD generator
 
