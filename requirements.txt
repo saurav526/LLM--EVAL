@@ -2,3 +2,5 @@ langchain-groq>=1.2.1
 langchain-core>=1.8.4
 python-dotenv>=1.2.4
 pandas>=3.0.6
+# Dependency for the OpenRouter model
+openrouter>=0.1.0
