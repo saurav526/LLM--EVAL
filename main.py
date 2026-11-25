@@ -18,7 +18,7 @@ Setup:
   pip install langchain-groq python-dotenv pandas
   .env file with:  GROQ_API_KEY=gsk_...
 """
-
+# it handle the entire eval flow for all models, and logs the results to RESULTS_PATH (eval_results.csv)
 import os
 import re
 import json
