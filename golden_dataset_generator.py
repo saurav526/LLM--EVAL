@@ -8,6 +8,7 @@
 #   hard    (1-2 traps)  : #1-8    - ratio OR null-filter OR threshold OR self-join
 #   brutal  (3+ traps)   : #9-20   - ratios + null-handling + HAVING + subquery + domain
 #
+
 # Trap vocabulary (what separates models):
 #   - NULL-sensitive filtering (extras_type IS NULL OR ... - the #22 killer)
 #   - rates/ratios (strike rate, economy, average, %)
