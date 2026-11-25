@@ -3,6 +3,7 @@ Build a SQLite DB of IPL 2021-2024 from the Kaggle IPL complete dataset.
 Expects matches.csv and deliveries.csv in the same folder.
 Produces: ipl_2021_2024.db  with two linked tables: matches, deliveries
 """
+# build a SQLite DB of IPL 2021-2024 from the Kaggle IPL complete dataset.
 
 import sqlite3
 import pandas as pd
