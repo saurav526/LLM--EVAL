@@ -11,6 +11,8 @@ Run against the DB you already built: ipl_2021_2024.db
 
 # Its main aim extracts the schema from the IPL 2021-2024 SQLite DB and saves it to a file (schema.sql) for use in prompts. It also provides an option to create a renamed copy of the schema to avoid contamination from memorized column names.
 
+#  it extract the all the coloumn names and table names from the database and saves it to a file. It also provides an option to create a renamed copy of the schema to avoid contamination from memorized column names.
+
 import sqlite3
 import pandas as pd
 
