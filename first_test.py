@@ -1,7 +1,6 @@
 """
 First test (ChatGroq version): send ONE question to ONE model via
 Groq, print the raw SQL. No loop, no scoring, no cleaning.
-
 Setup:
   pip install langchain-groq
   Put GROQ_API_KEY=gsk_... in your .env, then fill in MODEL below.
